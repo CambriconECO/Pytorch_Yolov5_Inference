@@ -1,0 +1,33 @@
+This is the Twins File of "yolov5s.cambricon".
+Function number: 1
+---------------kernel graph--------------------
+
+Function #0 {
+Kernel num:1 
+Cache mode:0 
+Name: subnet0
+Input number: 1
+    Input #0.
+        Mask: 338036233
+        Shape(dim): 1 640 640 3 
+        Name: 
+        Id: 1418
+        Data type: CNRT_FLOAT32        Dim Order: CNRT_NHWC
+        Quantize position: 0
+        Quantize scale: 0.000000
+Output number: 1
+    Output #0.
+        Mask: 338036233
+        Shape(dim): 1 1 1 7232 
+        Name: 
+        Id: 2490
+        Data type: CNRT_FLOAT16        Dim Order: CNRT_NHWC
+        Quantize position: 1886413614
+        Quantize scale: 0.000000
+Kernel header #0:
+    Name: subnet0442
+    Core version: 
+    Model Parallelism: 4
+    Core limit: 4
+    Inst data split: true
+}

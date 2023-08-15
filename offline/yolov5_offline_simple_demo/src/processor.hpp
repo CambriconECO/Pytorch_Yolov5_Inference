@@ -35,6 +35,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <string>
 #include <fstream>
 #include <iostream>
+#include <map>
+#include <cmath>
 
 
 using std::map;
